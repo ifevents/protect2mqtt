@@ -1,0 +1,23 @@
+{
+  "name": "@ifevents/protect2mqtt",
+  "version": "0.1.0",
+  "description": "Events from Unifi Protect to MQTT",
+  "main": "protect2mqtt/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ifevents/protect2mqtt.git"
+  },
+  "author": "@ifevents",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/ifevents/protect2mqtt/issues"
+  },
+  "homepage": "https://github.com/ifevents/protect2mqtt#readme",
+  "dependencies": {
+    "@ifevents/evprotect": "github:ifevents/evprotect#v0.2.0",
+    "mqtt": "^5.10.1"
+  }
+}
